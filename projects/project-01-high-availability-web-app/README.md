@@ -27,7 +27,7 @@ This project solves these issues by designing a highly available architecture.
 
 ---
 
-## 🔄 Architecture Flow
+## Architecture Flow
 1. User sends request via browser
 2. Request reaches Application Load Balancer
 3. ALB distributes traffic across EC2 instances
@@ -36,7 +36,7 @@ This project solves these issues by designing a highly available architecture.
 
 ---
 
-## ⚙️ AWS Services Used
+## AWS Services Used
 | Service | Purpose |
 |------|--------|
 | EC2 | Host web application |
@@ -47,7 +47,7 @@ This project solves these issues by designing a highly available architecture.
 
 ---
 
-## 🛠️ Implementation Steps
+## Implementation Steps
 1. Created a VPC with public subnets in 2 Availability Zones
 2. Launched EC2 instances with web server installed
 3. Configured Application Load Balancer
